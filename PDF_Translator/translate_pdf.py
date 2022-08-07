@@ -10,7 +10,6 @@ eng_file_name='eng_file.txt'
 kor_file_name='kor_file.txt'
 
 # Google scholar에서 검색 후 다운로드 하는 함수
-# pdf만 골라서 다운로드 받기가 흠...... 
 def download_pdf():
   # title=input('찾을 논문을 입력하시오 : ')
 
@@ -20,6 +19,9 @@ def download_pdf():
 
   # driver.find_element(By.CSS_SELECTOR,'#gs_hdr_tsi').send_keys(title)
   # driver.find_element(By.CSS_SELECTOR, '#gs_hdr_tsb').click()
+  
+  # pdf만 골라서 다운로드 받기가 흠...... 
+  
   pass
 
 
